@@ -1,0 +1,15 @@
+ktor:
+  application:
+    modules:
+      - com.tryfirst.api.ApplicationKt.module
+  deployment:
+    port: ${PORT:8080}
+
+gemini:
+  apiKey: "AIzaSyA5abN-HUIoGqk8r7YD_Q_Dzu7zs5j8IjA"
+
+database:
+  url: "jdbc:h2:mem:tryfirst;DB_CLOSE_DELAY=-1"
+  driver: "org.h2.Driver"
+  user: ""
+  password: ""
