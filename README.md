@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TryFirst Backend API
 
 Backend server untuk aplikasi Android TryFirst — dibangun dengan Ktor (Kotlin).
@@ -115,3 +116,6 @@ Setelah deploy, update base URL di Android:
 
 const val BASE_URL = "https://tryfirst-backend-xxxx.railway.app"
 ```
+=======
+# TryFirst
+>>>>>>> 1b5a0a382b9fb90d5b7895c5a86441502ac66e1b
